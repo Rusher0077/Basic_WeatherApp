@@ -1,0 +1,35 @@
+.Weatherbg{
+  background: url("https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-2381.jpg?w=740&t=st=1698940836~exp=1698941436~hmac=bae0c8a2e5fc472876765ce9ea2b38e4bc85b3fa09dbae13194ba44876caae42");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading{
+color: rgb(0, 0, 0);
+font-weight: 700;
+
+}
+
+.weatherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 300px;
+}
+
+.weatherIcon{
+margin-top: 13px;
+width:  100px;
+height: 100px;
+}
+
+.city{
+font-size: 25px;
+}
+
+.temp{
+  font-size: 45px;
+  font-weight: 700;
+}
